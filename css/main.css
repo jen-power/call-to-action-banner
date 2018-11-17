@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(1%);
 }
 
 .banner {
@@ -38,23 +39,25 @@ body {
   max-width: 45em;
 }
 
-p,
-a {
+p {
   font-size: 1.5rem;
 }
 
-a {
+.btn {
   text-decoration: none;
   display: inline-block;
   background-color: #333;
   border-radius: 8px;
-  text-decoration: none;
   color: #fff;
   padding: .5em .75em;
 }
 
-.btn .btn-big {
-  display: inline-block;
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 h2 {
