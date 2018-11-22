@@ -13,28 +13,35 @@ body {
 
 .both-content {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 1em;
+  left: 50%;
+  top: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transform: translateX(1%);
+  align-items: top;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  max-width: 45em;
 }
 
 .banner {
   position: relative;
   overflow: hidden;
+  max-height: 500px;
 }
 
 .img-flex {
-  display: block;
-  max-height: 500px;
+  display: flex;
   width: 100%;
 }
 
 .banner-content {
   width: 100%;
+  display: inline-block;
+  max-width: 45em;
+}
+
+.logo {
+  width: 40%;
   display: inline-block;
   max-width: 45em;
 }
