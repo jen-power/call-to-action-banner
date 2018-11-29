@@ -21,6 +21,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 45em;
+  margin-top: 1.5em;
 }
 
 .banner {
@@ -41,13 +42,14 @@ body {
 }
 
 .logo {
-  width: 70%;
+  width: 63%;
   display: inline-block;
   max-width: 45em;
 }
 
 p {
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .btn {
