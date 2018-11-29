@@ -16,12 +16,12 @@ body {
   left: 50%;
   top: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
-  transform: translate(-60%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
-  margin-top: 1.6em;
   max-width: 45em;
+  padding: 0 1em;
 }
 
 .banner {
@@ -36,15 +36,13 @@ body {
 }
 
 .banner-content {
-  width: 100%;
+  width: 60%;
   display: inline-block;
 }
 
 .logo {
-  width: 63%;
+  width: 35%;
   display: inline-block;
-  max-width: 45em;
-  margin-left: 5em;
 }
 
 p {
